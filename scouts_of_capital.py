@@ -1,7 +1,6 @@
 import telebot
 from telebot import types
 list_of_adm = []
-bot = telebot.TeleBot('5687810451:AAGjj215kpUVfECZcrPxmlRKHAmFsjkY6YI')
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
