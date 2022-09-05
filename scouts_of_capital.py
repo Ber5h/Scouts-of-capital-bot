@@ -23,6 +23,6 @@ def moder (message):
 @bot.message_handler(content_types = ['text'])
 def offers (message):
         for i in list_of_adm:
-            bot.send_message(i, message)
+            bot.send_message(i, message.text)
         bot.send_message(message.chat.id, 'Ваша запись отправлена, и будет рассмотрена в ближайшем времени')
 bot.polling(none_stop=True, interval=0)
