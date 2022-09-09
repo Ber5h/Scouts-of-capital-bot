@@ -1,1 +1,1 @@
-bot: python scouts_of_capital.py
+bot: python3 scouts_of_capital.py
